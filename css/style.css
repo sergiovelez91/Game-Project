@@ -1,4 +1,15 @@
-h1 {
-    background-color: brown
+html {
+    background: url(../images/5857a6593981a80.jpeg)
 }
 
+.colorbot1 {
+    background-color: springgreen;
+};
+
+.colorbot2 {
+    background-color: red;
+};
+
+.question-text {
+    justify-content: center
+}
