@@ -30,5 +30,3 @@ var negative_questions = [
 });
 
 var questions = positive_questions.concat(negative_questions);
-
-console.log(questions);
