@@ -7,12 +7,14 @@ $(window).keypress(function(event){
             game.questions[game.currentQuestion].checkAnswer("YES");
             game.currentQuestion+=1;
             game.printQuestion();
+            $('#remove').remove();
         }
         break;
         case "n":{
             game.questions[game.currentQuestion].checkAnswer("NO");
             game.currentQuestion+=1;
             game.printQuestion();
+            $('#remove').remove();
         }
         break;    
     }
