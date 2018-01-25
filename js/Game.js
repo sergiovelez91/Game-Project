@@ -16,3 +16,4 @@ Game.prototype.createQuestions = function (){
 Game.prototype.printQuestion = function (){
    this.board.append(this.questions[this.currentQuestion].questionDiv);
 }   
+ 
