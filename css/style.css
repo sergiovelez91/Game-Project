@@ -18,3 +18,32 @@
   text-align: center;
   width: 500px;
 }
+
+#restart{
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  bottom: 50px;
+  transform: translateX(-50%);
+  background: #0bc3b7;
+  color: white;
+  border: none;
+  padding-right: 30px;;
+  padding-left: 30px;
+  font-weight: bolder;
+
+
+
+
+}
+
+#gameover{
+  position: absolute;
+  color: black; 
+  font-size: 80px;
+  top: 200px;
+  left: 30%;
+  font-weight: bolder;
+  
+
+}

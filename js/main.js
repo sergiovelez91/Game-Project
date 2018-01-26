@@ -21,3 +21,4 @@ function myFunction(){
     $("#gameover").remove();
 
 }
+

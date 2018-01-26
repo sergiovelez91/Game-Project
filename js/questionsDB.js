@@ -12,7 +12,7 @@ var positive_questions = [
   "Nunca se ha visto a un elefante saltando en vertical",
   "Mark Zuckerberg es daltónico. El fondo de Facebook es azul porque es el color que puede distinguir mejor",
   "Todos los insectos tienen seis patas.",
-  "Samsung es el fabricante que mas moviles vendio en 2017",
+  "Samsung es el fabricante que mas móviles vendió en 2017",
   
 
 ].map(function(p){
@@ -33,7 +33,7 @@ var negative_questions = [
   "El ser humano pierde aproximadamente el 75% de calor corporal por la cabeza",
   "Si tiras un céntimo desde lo alto de un rascacielos, puedes atravesarle el cráneo a alguien.",
   "Por regla general las consultoras son un lugar cálido y agradable",
-  "Una funcion con return nos devuelve 'undefined",
+  "Una función con return nos devuelve 'undefined",
 
 
 ].map(function(p){

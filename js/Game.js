@@ -4,10 +4,13 @@ function Game() {
   this.gameOverDiv = 0;
   this.gameActive = true;
   this.counter = 0;
+  this.score = $("<div id= 'score'>").text('Score ' + this.counter);
+  $("#board").append(this.score);
 }
 Game.prototype.startGame = function() {
   this.createQuestion();
   this.printQuestion();
+  //this.counterScore();
 };
 Game.prototype.createQuestion = function() {
   this.questions.push(new Box());
@@ -24,6 +27,11 @@ Game.prototype.printGameOverDiv = function(){
     this.board.append($("<button id= 'restart' onclick='myFunction()'>").text('Restart'));
     
 }
+
+Game.prototype.updateCounter = function(){
+    this.score.text('Score ' + this.counter)
+}
+
 Game.prototype.restartGame = function(){
     game = new Game();   
     game.startGame(); 
@@ -33,10 +41,11 @@ Game.prototype.isGameOver = function(answer) {
     $("#remove").remove();
     this.createQuestion();
     this.printQuestion();
-    this.counter ++;
+    this.counter++
+    this.updateCounter()
     console.log(this.counter)
   } else {
-    $("#remove").remove();
+    $("#remove").remove();  
     console.log("Game Over");
     this.printGameOverDiv();
     this.gameActive = false;
